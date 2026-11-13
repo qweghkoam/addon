@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "echest-dump",
+  "version": "${version}",
+  "name": "44444 dev",
+  "description": "Meteor addon 44444 dev: EChest Dump + Chest Search + Elytra Ship Finder (поиск городов Края по сиду, авто-ремонт элитр) + Auto Sort + Auto Close Chest + Miner Pro (автошахтёр на Baritone).",
+  "authors": [
+    "you"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "dev.echestdump.EChestDumpAddon"
+    ]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.4",
+    "fabricloader": ">=0.16.0",
+    "meteor-client": "*"
+  },
+  "suggests": {
+    "baritone": "*"
+  }
+}
